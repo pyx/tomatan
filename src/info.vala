@@ -30,7 +30,7 @@ namespace TomaTan {
 
 const string NAME = "TomaTan";
 
-const string VERSION = "0.1.0";
+const string VERSION = "0.1.1";
 
 const string[] ARTISTS = {
     "Philip Xu <pyx@xrefactor.com>",

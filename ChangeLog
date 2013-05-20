@@ -1,0 +1,19 @@
+2013-05-20
+
+	Release 0.1.1
+
+	Fixed:
+	* unmovable window in stacking (non-tiling) window manager.
+
+	Tested in the following WM/DE:
+	* awesome wm
+	* e16
+	* e17
+	* fluxbox
+	* gnome 3
+	* i3 wm
+	* xfce4
+
+2013-05-19
+
+	Release 0.1.0
