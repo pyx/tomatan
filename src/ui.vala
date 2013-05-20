@@ -55,9 +55,10 @@ class TomaTan.UI: GLib.Object {
     }
 
     private void init_window() {
-        this.window = new Gtk.Window(WindowType.POPUP);
+        this.window = new Gtk.Window();
         window.title = TomaTan.NAME;
         window.window_position = Gtk.WindowPosition.CENTER;
+        window.type_hint = Gdk.WindowTypeHint.DIALOG;
         window.set_default_size(WIDTH, HEIGHT);
         window.set_keep_above(true);
         window.skip_pager_hint = true;
