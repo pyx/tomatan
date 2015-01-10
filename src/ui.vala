@@ -37,9 +37,9 @@ class TomaTan.UI: GLib.Object {
         Notify.init(TomaTan.NAME);
 
         timer.done.connect((t) => {
-            var alert = new Notification(TomaTan.NAME,
-                                         TomaTan.NOTIFICATION_MESSAGE,
-                                         null);
+            var alert = new Notify.Notification(TomaTan.NAME,
+                                                TomaTan.NOTIFICATION_MESSAGE,
+                                                null);
             alert.set_urgency(Urgency.CRITICAL);
             alert.set_icon_from_pixbuf(logo);
             try {
