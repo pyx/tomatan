@@ -32,13 +32,15 @@ const string NAME = "TomaTan";
 
 const string VERSION = "0.1.1";
 
+const string AUTHOR = "Philip Xu <pyx@xrefactor.com>";
+
 const string[] ARTISTS = {
-    "Philip Xu <pyx@xrefactor.com>",
+    AUTHOR,
     null
 };
 
 const string[] AUTHORS = {
-    "Philip Xu <pyx@xrefactor.com>",
+    AUTHOR,
     null
 };
 
@@ -46,7 +48,7 @@ const string URL = "https://bitbucket.org/pyx/tomatan/";
 
 const string DESC = NAME + " is a timer desinged for The Pomodoro Technique.";
 
-const string COPYRIGHT = "Copyright (c) 2013, Philip Xu <pyx@xrefactor.com>";
+const string COPYRIGHT = "Copyright (c) 2013, " + AUTHOR;
 
 const string LICENSE = COPYRIGHT + """
 All rights reserved.
