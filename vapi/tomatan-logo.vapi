@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013, Philip Xu <pyx@xrefactor.com>
+ * Copyright (c) 2013-2015, Philip Xu <pyx@xrefactor.com>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without

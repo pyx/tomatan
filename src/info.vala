@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013, Philip Xu <pyx@xrefactor.com>
+ * Copyright (c) 2013-2015, Philip Xu <pyx@xrefactor.com>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -48,7 +48,7 @@ const string URL = "https://bitbucket.org/pyx/tomatan/";
 
 const string DESC = NAME + " is a timer desinged for The Pomodoro Technique.";
 
-const string COPYRIGHT = "Copyright (c) 2013, " + AUTHOR;
+const string COPYRIGHT = "Copyright (c) 2013 - 2015, " + AUTHOR;
 
 const string LICENSE = COPYRIGHT + """
 All rights reserved.
