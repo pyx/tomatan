@@ -1,3 +1,10 @@
+2015-01-10
+
+	Release 0.1.2
+
+	Fixed:
+	* unable to compile because of name ambiguity
+
 2013-05-20
 
 	Release 0.1.1
